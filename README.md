@@ -1,10 +1,10 @@
-# 🚀 ezenvpro
+# ezenvpro
 
-**Simplify IP & Host Management | Streamline Your Pentesting Workflow 🚨**
+**Simplify IP & Host Management | Streamline Your Pentesting Workflow and OSCP Methodology 🚨**
 
 ---
 
-## 🎯 Overview
+##  Overview
 
 ezenvpro is your go-to CLI tool designed specifically for pentesters, OSCP aspirants, and network enthusiasts. Effortlessly manage IP addresses, environment variables, and `/etc/hosts` entries—no more typos, tedious notes, or cross-referencing IPs and URLs. Spend less time setting up, more time hacking!
 
