@@ -74,7 +74,7 @@ ezenvpro -a dc1 -s
 Delete environment variables and hosts entries:
 
 ```bash
-ezenvpro -d ca_ip1
+ezenvpro -d dc1
 ```
 ![img](/img/delete.jpeg)
 ---
@@ -82,7 +82,10 @@ ezenvpro -d ca_ip1
 ## Quick Notes
 
 * **Root Privileges**: Use `sudo` for `/etc/hosts` modifications.
-* **Apply Changes Immediately**:
+* **Apply Changes Immediately**: open a new terminal or run
+* **Groups are tags that act as a prefix for every tag to organise variables if working with multiple hosts.**: -g / --group
+* **Override lets you replace an existing IP in the ~/.zshrc**: -o / --override
+* **tags default starts with ip1,ip2...**: if -t / --tags not specified
 
 ```bash
 source ~/.zshrc
