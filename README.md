@@ -39,6 +39,7 @@ git clone https://github.com/d0mi33/ezenvpro.git
 cd ezenvpro
 chmod +x ezenvpro.py
 sudo cp ezenvpro.py /usr/local/bin/ezenvpro
+ezenvpro -h
 ```
 
 ### Dependencies
@@ -57,17 +58,17 @@ ezenvpro [-h] [-n N] [-t TAGS] [-g GROUP] [-o] [-d VARS] [-a ALIAS] [-s]
 
 ### Quick Examples
 
-Set IPs with custom tags, groups, and HTTPS aliases:
+Set IPs with custom tags, groups, and HTTPS/HTTP aliases:
 
 ```bash
-ezenvpro -n 2 -t web01 db01 -g clientX -a -s
+ezenvpro -n 2 -t dc1 db01 -g clientX -a -s
 ```
 ![gif2](/img/initial.gif)
 
-Add URL aliases to existing IP variables: so that you can so fuzing with just the variables and don't have to type the full URL every time! -a for http:// and -s for https://
+Add URL aliases to existing IP variables, so that you can do subdirectory fuzing with just the variables and don't have to type the full URL every time! -a for http:// and -s for https://
 
 ```bash
-ezenvpro -a ca_ip1 ca_ip2 -s
+ezenvpro -a dc1 -s
 ```
 
 Delete environment variables and hosts entries:
