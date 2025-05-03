@@ -33,7 +33,7 @@ pipx install ezenvpro
 Clone and install manually:
 
 ```bash
-git clone [<repo-url>](https://github.com/d0mi33/ezenvpro.git)
+git clone https://github.com/d0mi33/ezenvpro.git
 cd ezenvpro
 chmod +x ezenvpro.py
 sudo cp ezenvpro.py /usr/local/bin/ezenvpro
