@@ -82,10 +82,10 @@ ezenvpro -d dc1
 ## Quick Notes
 
 * **Root Privileges**: Use `sudo` for `/etc/hosts` modifications.
-* **Apply Changes Immediately**: open a new terminal or run
 * **Groups are tags that act as a prefix for every tag to organise variables if working with multiple hosts.**: -g / --group
 * **Override lets you replace an existing IP in the ~/.zshrc**: -o / --override
 * **tags default starts with ip1,ip2...**: if -t / --tags not specified
+* **Apply Changes Immediately**: open a new terminal or run
 
 ```bash
 source ~/.zshrc
