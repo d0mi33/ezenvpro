@@ -91,17 +91,7 @@ source ~/.zshrc
 ---
 
 ## 🚧 Preview
-
-```
-✅  Changes saved!
-
-🔄 Apply immediately:
-
-╔═══════════════════════════════════════╗
-║ → RUN: source ~/.zshrc                ║
-║ → OR open a new terminal window       ║
-╚═══════════════════════════════════════╝
-```
+![img2](/img/help.jpeg)
 
 ---
 
