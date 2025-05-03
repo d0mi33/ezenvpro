@@ -62,6 +62,7 @@ Set IPs with custom tags, groups, and HTTPS aliases:
 ```bash
 ezenvpro -n 2 -t web01 db01 -g clientX -a -s
 ```
+![gif2](/img/initial.gif)
 
 Add URL aliases to existing IP variables:
 
@@ -74,10 +75,10 @@ Delete environment variables and hosts entries:
 ```bash
 ezenvpro -d ca_ip1
 ```
-
+![img](/img/delete.jpeg)
 ---
 
-## 📌 Quick Notes
+## Quick Notes
 
 * **Root Privileges**: Use `sudo` for `/etc/hosts` modifications.
 * **Apply Changes Immediately**:
