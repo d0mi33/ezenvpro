@@ -28,6 +28,7 @@ ezenvpro is your go-to CLI tool designed specifically for pentesters, OSCP aspir
 ```bash
 pipx install ezenvpro
 ```
+![gif1](/img/demo.gif)
 
 ### Manual Setup
 
